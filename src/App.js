@@ -1,15 +1,21 @@
 import React from 'react';
 import './App.css';
+import Home from './Components/Home/Home'
+import Main from './Components/Main/Main'
+import Footer from './Components/Footer/Footer'
+import Navbar from './Components/Navbar/Navbar'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h2>Working</h2>
-      {/* You can include your logo here if needed */}
-      {/* <img src={logo} alt="Logo" /> */}
-    </div>
-  );
+    <>
+      <Navbar />
+      <Home />
+      <Main />
+      <Footer />
+    </>
+  )
 }
 
 export default App;
+
 
