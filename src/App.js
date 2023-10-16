@@ -6,12 +6,14 @@ import Main from './Components/Main/Main'
 import Navbar from './Components/Navbar/Navbar'
 
 const App = () => {
+  
   return (
+    
     <>
       <Navbar />
       <Home />
       <Main />
-      <Footer />
+      <Footer /> 
     </>
   )
 }
